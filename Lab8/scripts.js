@@ -29,8 +29,8 @@ function MoveDown(button) {
 }
 
 function Save() {
-    var i1 = document.querySelectorAll(".input1");
-    var i2 = document.querySelectorAll(".input2");
+    let i1 = document.querySelectorAll(".input1");
+    let i2 = document.querySelectorAll(".input2");
 
     var a = []
     for (var i = 1; i < i1.length; i++)         //т.к. первый элемент - скрытый блок
